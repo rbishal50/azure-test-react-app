@@ -1,7 +1,8 @@
 import "./App.css";
+import Hello from "./components/Hello";
 
 function App() {
-  return <h1>Azure Test React App</h1>;
+  return <Hello name="Azure Test React App" />;
 }
 
 export default App;
