@@ -16,7 +16,7 @@ jobs:
     name: Lint and Test Job
     defaults:
       run:
-        working-directory: web-app
+        working-directory: "/"
     steps:
       - uses: actions/checkout@v3
 
